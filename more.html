@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>more | Kakao Clone</title>
     <script src="https://kit.fontawesome.com/a35cad0467.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+
 </head>
 
 <body>
@@ -33,7 +35,9 @@
                 <i class="fas fa-qrcode"></i>
             </span>
             <span class="header__icon">
-                <i class="fas fa-cog"></i>
+                <a href="settings.html">
+                    <i class="fas fa-cog"></i>
+                </a>
             </span>
         </div>
     </header>
@@ -41,19 +45,21 @@
         <header class="More__header">
             <div class="frieds__friend friend friend--lg">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-                    <div class="friend__content">
-                        <span class="friend__name">
-                            안세준
-                        </span>
-                        <span class="friend__status">
-                            max945@naver.com
-                        </span>
-                    </div>
+                    <a href="chat.html">
+                        <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                안세준
+                            </span>
+                            <span class="friend__status">
+                                max945@naver.com
+                            </span>
+                    </a>
                 </div>
-                <div class="friend__column">
-                    <i class="far fa-comment-alt fa-2x"></i>
-                </div>
+            </div>
+            <div class="friend__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
             </div>
             </d>
             <ul class="More__btn-list">
@@ -102,8 +108,6 @@
                 </li>
 
             </ul>
-
-
         </section>
 
     </main>
