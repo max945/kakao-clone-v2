@@ -8,10 +8,9 @@
     <title>chat | Kakao Clone</title>
     <script src="https://kit.fontawesome.com/a35cad0467.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css" />
-
 </head>
 
-<body>
+<body class="chats-body">
     <div class="status-bar">
         <div class="status-bar_column">
             <span class="status-bar__clock">13:54</span>
@@ -42,18 +41,27 @@
             </span>
         </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
         <ul class="chat__messages">
             <span class="chat__timestamp">Friday, January 11, 2019</span>
-            <li class="incoming-message message"></li>
-            <span class="message__timestamp"></span>
-            <img src="images/avatar.jpg" class="g-avatar">
-            <div class="message__content">
-                <span class="message__author">Best Friend</span>
-                <div class="message__bubble">
-                    Congrats i love you
+            <li class="incoming-message message">
+                <img src="images/avatar.jpg" class="g-avata message__avatar">
+                <div class="message__content">
+                    <span class="message__author">Best Friend</span>
+                    <div class="message__bubble">
+                        Congrats i love you!
+                    </div>
                 </div>
-            </div>
+                <span class="message__timestamp"></span>
+            </li>
+            <li class="sent-message message">
+                <span class="message__timestamp"></span>
+                <div class="message__content">
+                    <div class="message__bubble">
+                        Thank you see you soon!
+                    </div>
+                </div>
+            </li>
         </ul>
     </main>
     <div class="chat__write">
@@ -63,12 +71,13 @@
         <div class="chat__write-column">
             <input type="text" placeholder="send message" class="chat__right-input" />
         </div>
-        <div class="chat__write-column"></div>
-        <span class="chat__write-icon">
-            <i class="far fa-smile-wink"></i>
-        </span>
-        <span class="chat__write-icon">
-            <i class="fas fa-microphone-alt"></i>
+        <div class="chat__write-column">
+            <span class="chat__write-icon">
+                <i class="far fa-smile-wink"></i>
+            </span>
+            <span class="chat__write-icon">
+                <i class="fas fa-microphone-alt"></i>
+        </div>
         </span>
     </div>
 </body>
