@@ -130,12 +130,13 @@ font-weight: 700;
 .message{
     display: flex;
     align-items: flex-start;
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
+    margin-right: 1px;
 }
 
 .message .message__content{
-width:50%
+width:60%
 }
 
 @keyframes spin{
@@ -226,3 +227,8 @@ to{
     .sent-message{
         animation: sentAnim .5s ease-out forwards;
     }
+
+.sent-message{
+margin-right: 0px;
+}
+
