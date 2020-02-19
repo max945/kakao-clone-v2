@@ -76,3 +76,20 @@ opacity: 0.6;
 .chats li{
   margin-top: 23px;
 }
+
+.nav__badge{
+  position: relative;
+  top: 0px;
+  right: 10px;
+  color: white;
+ 
+  font-size: 10px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #dc5d46;
+}
+
