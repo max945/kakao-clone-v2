@@ -10,7 +10,6 @@ height: var(--headerHeight);
     top: 0px;
     margin-right: auto;
     margin-left: auto;
-    position: fixed;
     width: 100%;
     padding-top: env(safe-area-inset-top);
     padding-left: env(safe-area-inset-left);

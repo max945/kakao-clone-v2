@@ -1,11 +1,18 @@
-.chats-body{
-    padding: 0;
+.header-wrapper{
+    background-color: white;
+padding: 10px 0;
+position: fixed;
+top:0px;
+width:100%;
+z-index: 9999999999;
 }
 
 
-.chat-screen{
+
+.chats-body{
     background-image: url("../images/chatBg.png");
-    min-height: 100vh;
+    min-height: 100000px;
+    padding-top: 130px;
 }
 
 
@@ -174,10 +181,11 @@ transform: rotateY(1turn);
 0 -6px 16px -6px rgba(0,0,0,.025);
 padding: 10px 20px;
 border-radius: 20px;
+display: block;
 }
 
 .incoming-message .message__author{
-    margin-top: 25px;
+    margin-top: 10px;
     display: block;
     font-weight: 600;
     font-size: 12px;
